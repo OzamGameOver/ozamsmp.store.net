@@ -10,7 +10,7 @@ window.onload = function () {
     var serverIpPort = 25569;
 
     //Banner image (url) 
-    var bannerTop = 'https://i.imgur.com/k0MtSCb.png';
+    var bannerTop = 'https://mcapi.us/scripts/minecraft.min.js';
 
     //--------------- Home Gallery ---------------
     //Firs text / image (url)
