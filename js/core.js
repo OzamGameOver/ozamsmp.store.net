@@ -45,7 +45,7 @@ window.onload = function () {
     var urlTwiiter = "https://github.com/Tiagox42";
     var urlInstagram = "https://www.instagram.com/tdantas42/";
     var urlYoutube = "https://www.youtube.com/user/Tg42x/videos";
-    var discordInvite = "https://github.com/Tiagox42";
+    var discordInvite = "https://discord.com/4dRweu47BF";
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
 
 
