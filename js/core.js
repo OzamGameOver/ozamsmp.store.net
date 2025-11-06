@@ -3,10 +3,10 @@ window.onload = function () {
     // GENERAL CONFIGS v0.1
 
     //Site title
-    let title = 'BattleCraft';
+    let title = '';
 
     //Server Ip (counter)
-    var serverIp = '185.245.99.98:25569';
+    var serverIp = 'ozamsmp.servertux.eu';
     var serverIpPort = 25569;
 
     //Banner image (url) 
