@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
+        </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+        
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./information.html">Information</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="homeGallery">
+
+            <div class="homeGalleryTwo">
+
+                <div id="image_Gfirst" class="hg1">
+                    <p id="text_Gfirst" class="textHGtwo"></p>
+                </div>
+
+                <div id="image_Gsecond" class="hg2">
+                    <p id="text_Gsecond" class="textHGtwo"></p>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="homeGalleryOne">
+
+                <div id="image_Gtrird" class="hg3">
+                    <p id="text_Gtrird" class="textHGone"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="middleSection">
+            <div class="bannermiddle">
+
+                <div class="infoServer">
+                    <p style="color: #ffcc00;">This server is based on <strong><span id="typeServer">Full PVP</span></strong> model</p>
+                    <br>
+                    <p style="color: red;">We have:</p>
+                    <br>
+                    <ul style="list-style-type: disc;">
+                        <li>Own and fun mechanics</li>
+                        <li>Custom maps</li>
+                        <li>Daily Events</li>
+                        <li>Economy System</li>
+                        <li>House System</li>
+                        <li>Clans System</li>
+                        <li>Competent team</li>
+                    </ul>
+                    <br>
+                    <p style="text-shadow: none;">and much more</p>
+                </div>
+
+            </div>
+
+
+            <div class="infoImage">
+                <img src="img/person2.png" alt="">
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+
+        <div class="comments">
+
+            <div class="co">
+                <img id="firstPlayerImage" src="" alt="">
+                <p id="firstPlayerName" class="cotitle">Dor1toz</p>
+                <p id="firstPlayerComment" class="cotext">The best server, great fun and the team helps whenever I need it!</p>
+            </div>
+
+            <div class="co">
+                <img id="secondPlayerImage" src="" alt="">
+                <p id="secondPlayerName" class="cotitle">Denise</p>
+                <p id="secondPlayerComment" class="cotext">Fun, cute and cool. All my friends are playing here and let's make a clan, best server
+                    ever!</p>
+            </div>
+
+            <div class="co">
+                <img id="trirdPlayerImage" src="" alt="">
+                <p id="trirdPlayerName" class="cotitle">Wolf</p>
+                <p id="trirdtPlayerComment" class="cotext">I will defeat them all, wait for me!</p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+        <div id="bannerSocialImage" class="buttonsSocial">
+
+            <div class="butBox">
+
+                <div class="butIcon">
+                    <a id="urlFacebook" href="#"><img src="img/social1.png" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlTwiiter" href="#"><img src="img/social2.png" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlInstagram" href="#"><img src="img/social3.png" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlYoutube" href="#"><img src="img/social4.png" alt=""></a>
+                </div>
+
+                <a id="discordInvite" href="#">
+                    <div class="butBoxDiscord">
+
+                        <div class="butIconDiscord">
+                            <img src="img/social5.png" alt="">
+                        </div>
+
+                        <p>Enter the discord!</p>
+                        <p>And stay on top of news, meet new people and have fun!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>All rights reserved.</p>
+            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
