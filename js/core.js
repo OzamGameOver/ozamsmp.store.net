@@ -6,8 +6,8 @@ window.onload = function () {
     let title = 'BattleCraft';
 
     //Server Ip (counter)
-    var serverIp = 'play.foxcraft.net';
-    var serverIpPort = 25565;
+    var serverIp = '185.245.99.98:25569';
+    var serverIpPort = 25569;
 
     //Banner image (url) 
     var bannerTop = 'https://i.imgur.com/k0MtSCb.png';
