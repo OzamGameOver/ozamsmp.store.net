@@ -43,8 +43,8 @@ window.onload = function () {
     //Social media links / banner (url)
     var urlFacebook = "https://github.com/Tiagox42";
     var urlTwiiter = "https://github.com/Tiagox42";
-    var urlInstagram = "https://www.instagram.com/tdantas42/";
-    var urlYoutube = "https://www.youtube.com/user/Tg42x/videos";
+    var urlInstagram = "https://www.instagram.com/ozam2games/";
+    var urlYoutube = "https://www.youtube.com/@OzamGameOver";
     var discordInvite = "https://discord.com/4dRweu47BF";
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
 
