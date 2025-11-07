@@ -15,13 +15,13 @@ window.onload = function () {
     //--------------- Home Gallery ---------------
     //Firs text / image (url)
     var text_Gfirst = 'Special Items';
-    var image_Gfirst = 'https://i.imgur.com/OkfQb7q.png';
+    var image_Gfirst = 'https://i.postimg.cc/4d2nTZJp/Emerald-Tools-Thumbnail-0.jpg';
     //Second text / image (url)
     var text_Gsecond = 'Economy'
-    var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png';
+    var image_Gsecond = 'https://i.postimg.cc/fW0MbY5h/68747470733a2f2f692e706f7374696d672e63632f467a5971314344432f7265616c69737469632d65636f6e6f6d792e706e.png';
     //Third text / image (url)
     var text_Gtrird = 'Great Community'
-    var image_Gtrird = 'https://i.imgur.com/7JP74WT.png';
+    var image_Gtrird = 'https://i.postimg.cc/qMPhRk2j/CM-You-Tube-Thumbnail.jpg';
     //--------------------------------------------
 
     //Type Server (FullPVP, MiniGame, Survival, and others...)
@@ -30,7 +30,7 @@ window.onload = function () {
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
     //Firs player nick / comment text
-    var firstPlayerName = 'Dor1toz';
+    var firstPlayerName = 'ozam2games';
     var firstPlayerComment = "The best server, great fun and the team helps whenever I need it!";
     //Second player nick / comment text
     var secondPlayerName = 'Tester';
@@ -41,8 +41,8 @@ window.onload = function () {
     //--------------------------------------------
 
     //Social media links / banner (url)
-    var urlFacebook = "https://github.com/Tiagox42";
-    var urlTwiiter = "https://github.com/Tiagox42";
+    var urlFacebook = "https://github.com/ozamgameover";
+    var urlTwiiter = "https://github.com/ozamgameover";
     var urlInstagram = "https://www.instagram.com/ozam2games/";
     var urlYoutube = "https://www.youtube.com/@OzamGameOver";
     var discordInvite = "https://discord.com/4dRweu47BF";
